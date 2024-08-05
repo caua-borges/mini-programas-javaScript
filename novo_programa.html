@@ -1,0 +1,30 @@
+<meta charset="utf-8">
+<h3>Lista Mercado</h3>
+<input>
+<button>Adicionar Item</button>
+
+
+<script>
+
+var input = document.querySelector("input")
+var botao = document.querySelector("button")
+
+
+function pulaLinha(){
+	document.write("<br>")
+}
+
+function mostra(texto){
+	pulaLinha();
+	pulaLinha();
+	document.write(texto);
+}
+var lista = [];
+
+function adicionarItemALista(item){
+	return lista.push(input.value = "Adicionar item");
+}
+
+botao.onclick = adicionarItemALista 
+
+</script>

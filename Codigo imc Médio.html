@@ -1,0 +1,41 @@
+<meta charset="UTF-8">
+
+<script>
+
+function pulaLinha(){
+
+	document.write("<br>");
+}
+
+function mostra(texto){
+
+	document.write(texto);
+} 
+
+mostra("1+1 é 2");
+pulaLinha();
+mostra("4+4 é 8");
+pulaLinha();
+
+function calculaImc(peso, altura){
+
+    var imc = Math.round(peso/(altura*altura));    
+    return imc  
+
+}
+
+ var imcTotal =  calculaImc(60, 1.70) + calculaImc(80, 1.82);
+
+ mostra("o imc total é: " + (imcTotal))
+
+ var imc1 = calculaImc(60, 1.70);
+ var imc2 = calculaImc(80, 1.82); 
+ var imcTotal = imc1 + imc2;
+
+ mostra("o imc do 1 é: " + (imc1));
+ pulaLinha();
+ mostra("o imc do 2 é: " + (imc2));
+ pulaLinha();
+ mostra("o imc total é: " + (imcTotal));
+
+</script>

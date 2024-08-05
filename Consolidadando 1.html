@@ -1,0 +1,43 @@
+<meta charset="UTF-8">
+
+<h1>Tudo oque eu aprendi até agora</h1>
+
+<script>
+	
+	var nascimento = parseInt(prompt("digite o ano em que voce nasceu"));
+	var ano = 2023	
+    var idade = ano - nascimento
+
+	function calculaIdade(){
+	return idade 
+	}
+
+calculaIdade();
+pulaLinha();
+document.write("aqui voce digita algo em html")
+pulaLinha();
+
+function pulaLinha(){
+	document.write("<br>")
+}
+function mostra(texto){
+	document.write(texto);
+	pulaLinha();
+}
+if (idade>=18){
+	mostra("Voce é maior de idade")
+}else{mostra("Voce é menor de idade")}
+
+mostra("uma função pode guardar parametros");
+
+function calculaImc(peso, altura){
+	return Math.round(peso / (altura*altura))
+}
+
+mostra(calculaImc(60,1.75));
+
+var seuPeso = parseInt(prompt("digite o seu peso"));
+var suaAltura = parseInt(prompt("digite a sua altura"));
+mostra(calculaImc(seuPeso,suaAltura));
+</script>
+

@@ -1,0 +1,31 @@
+<meta charset="UTF-8">
+
+<script>
+
+document.write("primeiro desafio ");
+pulaLinha();
+
+function pulaLinha(){
+	document.write("<br>");
+}
+function calculaIdade(anoDeNascimento, anoAtual){
+	var resultado = anoAtual - anoDeNascimento
+	return resultado
+	var resultado2 = anoAtual - anoDeNascimento2
+	return resultado2
+}
+function mostraTexto(texto){
+	document.write(texto)
+}
+var nome = prompt("informe seu nome");
+var anoDeNascimento = prompt(nome + " informe seu ano de nascimento");
+var anoAtual = prompt(nome + " informe o ano atual");
+
+mostraTexto(nome + " voce tem " + calculaIdade(anoDeNascimento, anoAtual) + " anos de idade");
+pulaLinha();
+
+var nomeSegundaPessoa = prompt("informe seu nome");
+var anoDeNascimento2 = prompt(nomeSegundaPessoa + " informe seu ano de nascimento");
+
+mostraTexto(nomeSegundaPessoa + " voce tem " + calculaIdade(anoDeNascimento2, anoAtual) + " anos de idade");
+</script>

@@ -1,0 +1,25 @@
+<meta charset ="utf-8">
+
+<script>
+function mostra(texto){
+	document.write(texto)
+	pulaLinha();
+}
+function pulaLinha(){
+	document.write("<br>")
+}
+
+var tentativas = 1
+while(tentativas<=3){
+	var numeroAleatorio = Math.round(Math.random() * 10);
+	var chute = parseInt(prompt("Digite o seu chute"));
+
+         if(chute==numeroAleatorio){
+	         mostra("voce acertou,parabens")
+	         break;
+ }else{
+	         mostra("voce errou,tente novamente");
+	         tentativas++
+ }
+}
+</script>
