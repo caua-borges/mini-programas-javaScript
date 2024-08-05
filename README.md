@@ -3,7 +3,7 @@
     <h2>Como usar</h2>
     <ol>
         <li>Clone o repositório:</li>
-        <pre><code>git clone https://github.com/seu-usuario/mini-programas-javascript.git</code></pre>
+        <pre><code>git clone https://github.com/caua-borges/mini-programas-javascript.git</code></pre>
         <li>Execute os programas:</li>
         <ul>
             <li>Navegue até o diretório do programa desejado.</li>
